@@ -251,32 +251,11 @@ This project demonstrates several practices directly relevant to backend and app
 
 ---
 
-## 📸 Screenshots / Demo
-
-> _Add screenshots or a short GIF of the chat interface here._
-
-```
-[ Screenshot: Landing page — "Let's decode Mohit!" ]
-[ Screenshot: Sample conversation — biographical Q&A ]
-[ Screenshot: Fallback response for an out-of-scope question ]
-[ GIF: End-to-end chat interaction ]
-```
 
 🔗 **Live deployment:** [mohitsbot.vercel.app](https://mohitsbot.vercel.app)
 
 ---
 
-## 🏆 Resume-Worthy Impact
-
-> Suggested bullet points for a résumé or LinkedIn project entry:
-
-- Designed and deployed a **full-stack Retrieval-Augmented Generation (RAG) chatbot** using Flask, LangChain, and Google Gemini, serving live conversational queries through a serverless architecture on Vercel.
-- Engineered a **context-injection pipeline** separating persona rules, factual knowledge, and conversation state into independently maintainable layers, reducing hallucination risk without model fine-tuning.
-- Implemented **prompt-engineered scope control**, enabling the system to reliably distinguish in-domain, out-of-domain, and conversational queries and respond appropriately to each.
-- Built a **stateless, serverless backend** optimized for cold-start performance through minimal, deliberately curated dependencies, deployed via CI-free Vercel Python runtime.
-- Abstracted LLM provider integration through **LangChain's model-agnostic interface**, ensuring the system can switch underlying language models with configuration changes rather than code rewrites.
-
----
 
 ## 🤝 Contributing
 
@@ -290,11 +269,6 @@ Contributions, issues, and feature requests are welcome.
 
 ---
 
-## 📄 License
-
-This project is licensed under the **MIT License**. See the [LICENSE](LICENSE) file for details.
-
----
 
 <div align="center">
 
